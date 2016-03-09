@@ -1,0 +1,49 @@
+﻿<LabTech_Expansion
+	Version="105.226"
+	Name="LabTech Script Expansion"
+	Type="PackedScript">
+	<PackedScript>
+		<NewDataSet>
+			<Table>
+				<ScriptId>6653</ScriptId>
+				<FolderId>150</FolderId>
+				<ScriptName>Rename agent to hostname</ScriptName>
+				<ScriptNotes>Sets the computer name in LT to the current hostname.
+Chris Taylor
+1/9/2015</ScriptNotes>
+				<Permission>0,</Permission>
+				<EditPermission>0,</EditPermission>
+				<ComputerScript>1</ComputerScript>
+				<LocationScript>0</LocationScript>
+				<MaintenanceScript>0</MaintenanceScript>
+				<FunctionScript>0</FunctionScript>
+				<LicenseData>H4sIAAAAAAAEAFWPQQrCMBRE94J3yAEamsT80pZPQFTcqAsV97H9QhamJW3E3l5aFOpqmBnewODBVeQ72treGrwOLRmJ6aR4jn7TRN9TMALTmcPdu3VhZMhcI3W1HRJ2al70vFNgSidMCQlMllKVAGx9xHRG4KUKru1vFDrX+HH6P/j2++hqY7PVQ2steaF0zqUk4LbICy4ECMisElDDj58ATOeHlosPkZNB/uAAAAA=</LicenseData>
+				<ScriptData>H4sIAAAAAAAEANWVXU+DMBSG7038D70hu0KgwDYMNlsc+0hMXLapt9RRtclWFiiJP9/C2q0Qx4W6LF7R9z09J+c8OQ3hcp3RHR9hjtH1FQDhXueVEDL65Bkuo2NKNkkOLBWY4wxvCSeZ5k026SveaMa+2LO4RFOGnNCqG7Vbk4ImCHfdN8/zHDOAXt90HOKbOOgHpm37tt/F0PYTX1WpEqqeLb1pWW7Jye4wxXDNZQPyJP1xwSo9S8qYpvQhncbQsKHdhvYa2td4pBlHtui3/ErvPmWcsoKU/uEsY4/5A93SKkUdZWTGEsI4roYRUV3qSI4UWrDANix2cBoM+khzzsQahJY0apzQjfRhnRea1tPcy+LzzoivZ7fQm7bTgyfoGet0uyvEyytzjR8xdP6aoXtGhrBtAxdEUKDsHfD0FgwU0cH3SH/5cOF/2rxur4Xa03w0XEUgVpuUx2AZrUBcsovBHegcSXbAyzRaREBdpYmIG0dlnAW1ewHUSst/4Rch/+26GgcAAA==</ScriptData>
+				<ScriptVersion>1</ScriptVersion>
+				<ScriptGuid>a63f4441-9248-11e5-a989-005056a205d5</ScriptGuid>
+				<ScriptFlags>0</ScriptFlags>
+				<Parameters></Parameters>
+			</Table>
+		</NewDataSet>
+		<ScriptFolder>
+			<NewDataSet>
+				<Table>
+					<FolderID>150</FolderID>
+					<ParentID>8</ParentID>
+					<Name>Agent</Name>
+					<GUID>88ec5c08-a679-4e01-8add-22daeb603707</GUID>
+				</Table>
+			</NewDataSet>
+		</ScriptFolder>
+		<ScriptFolder>
+			<NewDataSet>
+				<Table>
+					<FolderID>8</FolderID>
+					<ParentID>0</ParentID>
+					<Name>Maintenance</Name>
+					<GUID>064548fa-1133-4823-a069-4197f8256f3e</GUID>
+				</Table>
+			</NewDataSet>
+		</ScriptFolder>
+	</PackedScript>
+</LabTech_Expansion>
